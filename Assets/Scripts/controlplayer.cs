@@ -6,11 +6,14 @@ public class controlplayer : MonoBehaviour
 {
     
     float speed = 10f;
+   
+
+    private float currentDashTime;
 
     // Use this for initialization
     void Start()
     {
-
+       
     }
 
     // Update is called once per frame
@@ -26,5 +29,6 @@ public class controlplayer : MonoBehaviour
         transform.position += move
             * speed * Time.deltaTime;
 
+        
     }
 }
