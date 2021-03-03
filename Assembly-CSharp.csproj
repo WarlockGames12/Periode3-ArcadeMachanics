@@ -65,9 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HoverPlayer.cs" />
+    <Compile Include="Assets\NextLevel.cs" />
     <Compile Include="Assets\Scripts\Camera_Follow.cs" />
     <Compile Include="Assets\Scripts\LookAtMouse.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\controlplayer.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
