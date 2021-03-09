@@ -16,10 +16,11 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused)
+        if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == true)
         {
             Resume();
-        } else
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == false)
         {
             Pause();
         }
