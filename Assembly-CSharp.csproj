@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\Menu Scripts\HoverPlayer.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\buttons.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\controlsmenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\sliderAudio.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\Camera_Follow.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\LookAtMouse.cs" />
