@@ -6,22 +6,20 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        //NextLevel = SceneManager.GetActiveScene().buildIndex + 1;
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Application.LoadLevel(loadLevel);
+        //SceneManager.LoadScene(nextLevel);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("Collision Detected");
-            SceneManager.LoadScene("Level2");
-        }
-    }
-}
+}    
