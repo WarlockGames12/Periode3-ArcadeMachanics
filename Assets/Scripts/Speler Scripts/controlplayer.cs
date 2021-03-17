@@ -4,32 +4,20 @@ using UnityEngine;
 
 public class controlplayer : MonoBehaviour
 {
-    
-    float speed = 10f;
 
-    private Rigidbody2D rb;
-    private float currentDashTime;
+    //movement speed in units per second
+    private float movementSpeed = 10f;
 
-    // Use this for initialization
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
-        // What is the player doing with the controls?
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"),
-            Input.GetAxis("Vertical"), 0);
-        //rb.velocity = new Vector2(move, 0);
-        rb.AddForce(move);
-        /*
-        // Update the ships position each frame
-        transform.position += move
-            * speed * Time.deltaTime;
-        */
+        //get the Input from Horizontal axis
+        float horizontalInput = Input.GetAxis("Horizontal");
+        //get the Input from Vertical axis
+        float verticalInput = Input.GetAxis("Vertical");
+
+        //update the position
+        transform.position = transform.position + new Vector3(horizontalInput * movementSpeed * Time.deltaTime, verticalInput * movementSpeed * Time.deltaTime, 0);
+
         
     }
 }
