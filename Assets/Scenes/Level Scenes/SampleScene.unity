@@ -10098,7 +10098,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16129,7 +16128,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -20564,7 +20562,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21487,7 +21484,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -22505,12 +22501,12 @@ PrefabInstance:
     - target: {fileID: 3352705732782570798, guid: b2a957a00432f244098c8ae49c3559f2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -142.78699
+      value: -144.8
       objectReference: {fileID: 0}
     - target: {fileID: 3352705732782570798, guid: b2a957a00432f244098c8ae49c3559f2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -81.16699
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 3352705732782570798, guid: b2a957a00432f244098c8ae49c3559f2,
         type: 3}
@@ -22557,6 +22553,66 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 444086016}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: ColorBySpeedModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: SizeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: SizeModule.curve.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: SizeModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: SizeModule.z.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: SizeModule.curve.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key2.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime1
+      value: 33153
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 33153
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: TriggerModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352705732866946454, guid: b2a957a00432f244098c8ae49c3559f2,
+        type: 3}
+      propertyPath: ColorModule.gradient.minGradient.key1.a
+      value: 0.13725491
+      objectReference: {fileID: 0}
     - target: {fileID: 6376423051365274027, guid: b2a957a00432f244098c8ae49c3559f2,
         type: 3}
       propertyPath: _levelToLoad
