@@ -851,9 +851,10 @@ GameObject:
   m_Component:
   - component: {fileID: 62177900}
   - component: {fileID: 62177901}
+  - component: {fileID: 62177902}
   m_Layer: 0
   m_Name: ufo (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -922,6 +923,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &62177902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62177899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &67496655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2997,9 +3014,10 @@ GameObject:
   - component: {fileID: 248445584}
   - component: {fileID: 248445586}
   - component: {fileID: 248445585}
+  - component: {fileID: 248445587}
   m_Layer: 0
   m_Name: ufo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3087,6 +3105,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &248445587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248445583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &248461013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3168,9 +3202,10 @@ GameObject:
   m_Component:
   - component: {fileID: 250145405}
   - component: {fileID: 250145406}
+  - component: {fileID: 250145407}
   m_Layer: 0
   m_Name: tiefighter (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3239,6 +3274,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &250145407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250145404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1 &281764567
 GameObject:
   m_ObjectHideFlags: 0
@@ -6636,9 +6687,10 @@ GameObject:
   m_Component:
   - component: {fileID: 559681495}
   - component: {fileID: 559681496}
+  - component: {fileID: 559681497}
   m_Layer: 0
   m_Name: tiefighter (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6707,6 +6759,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &559681497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559681494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &562261827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9454,9 +9522,10 @@ GameObject:
   m_Component:
   - component: {fileID: 893775439}
   - component: {fileID: 893775440}
+  - component: {fileID: 893775441}
   m_Layer: 0
   m_Name: ufo (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9525,6 +9594,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &893775441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893775438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &896840845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10597,9 +10682,10 @@ GameObject:
   m_Component:
   - component: {fileID: 985002189}
   - component: {fileID: 985002190}
+  - component: {fileID: 985002191}
   m_Layer: 0
   m_Name: ufo (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10668,6 +10754,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &985002191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985002188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &994168914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12609,7 +12711,7 @@ GameObject:
   - component: {fileID: 1162208717}
   m_Layer: 0
   m_Name: Enemy's
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18375,9 +18477,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1760235223}
   - component: {fileID: 1760235224}
+  - component: {fileID: 1760235225}
   m_Layer: 0
   m_Name: tiefighter
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18446,6 +18549,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1760235225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760235222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &1760657560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18527,9 +18646,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1765881364}
   - component: {fileID: 1765881365}
+  - component: {fileID: 1765881366}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18598,6 +18718,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1765881366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765881363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &1766964674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22537,9 +22673,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2138153212}
   - component: {fileID: 2138153213}
+  - component: {fileID: 2138153214}
   m_Layer: 0
   m_Name: tiefighter (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22608,6 +22745,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2138153214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138153211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 862016796}
+  speed: 5
+  distance: 5
+  agroRange: 5
 --- !u!1001 &2819138655212709007
 PrefabInstance:
   m_ObjectHideFlags: 0
