@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public Transform target;//set target from inspector instead of looking in Update
+    
     public float speed;
     public float distance;
     public float agroRange;
+    public Transform target;//set target from inspector instead of looking in Update
 
     void Start()
     {
@@ -29,5 +30,6 @@ public class EnemyBehaviour : MonoBehaviour
                 transform.Translate(new Vector2(speed * Time.deltaTime, 0));
             }
         }
+       
     }
 }

@@ -935,10 +935,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &67496655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3117,10 +3117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &248461013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3286,10 +3286,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1 &281764567
 GameObject:
   m_ObjectHideFlags: 0
@@ -6771,10 +6771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &562261827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9606,10 +9606,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &896840845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10766,10 +10766,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &994168914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18561,10 +18561,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &1760657560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18730,10 +18730,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &1766964674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22757,10 +22757,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 862016796}
   speed: 5
-  distance: 5
+  distance: 60
   agroRange: 5
+  target: {fileID: 862016796}
 --- !u!1001 &2819138655212709007
 PrefabInstance:
   m_ObjectHideFlags: 0
