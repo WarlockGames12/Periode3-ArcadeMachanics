@@ -32,9 +32,7 @@ public class GetHitByEnemy : MonoBehaviour
             lives -= 1; //Live = 3 - 1 collision = 2 lives and so on for if it happens another time
             if(lives == 0) //if the Player has no lives, it will get you a game over UI
             {
-                Audio12.GetComponent<AudioSource>().enabled = true;
                 
-                Destroy(Audio12, 8.0f);
                 GameOverScreen.SetActive(true);
                 GameOver = true;
                 Destroy(other); //Destroy Camera 
