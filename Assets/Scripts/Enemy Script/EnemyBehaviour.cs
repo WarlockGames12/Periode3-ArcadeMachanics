@@ -6,17 +6,16 @@ public class EnemyBehaviour : MonoBehaviour
 {
     
     public float speed;
-    public float distance;
+    private float distance; //set the distance of the enemy seeing the player
     public float agroRange;
     public Transform target;//set target from inspector instead of looking in Update
 
-    void Start()
-    {
-
-    }
-
     void Update()
     {
+        if(target == null)
+        {
+            return;
+        }
         if (Vector2.Distance(transform.position, target.position) < agroRange) //Agro range
         {  //rotate to look at the player
             transform.LookAt(target.position);
@@ -28,6 +27,7 @@ public class EnemyBehaviour : MonoBehaviour
             if (Vector2.Distance(transform.position, target.position) > distance)
             {//move if distance from target is greater than distance
                 transform.Translate(new Vector2(speed * Time.deltaTime, 0));
+               
             }
         }
        

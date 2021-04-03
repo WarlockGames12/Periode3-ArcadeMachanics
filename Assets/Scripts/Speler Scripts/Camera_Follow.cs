@@ -8,6 +8,6 @@ public class Camera_Follow : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = new Vector3(spshipsprite.position.x, spshipsprite.position.y, transform.position.z);
+        transform.position = new Vector3(spshipsprite.position.x, spshipsprite.position.y, transform.position.z); //the camera will follow the player around :D
     }
 }

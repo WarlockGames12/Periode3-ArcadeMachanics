@@ -8,7 +8,9 @@ public class buttons : MonoBehaviour
     
     public void Menu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        
+        Debug.Log("Please work!");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void Quit()

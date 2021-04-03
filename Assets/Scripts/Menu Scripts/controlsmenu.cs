@@ -8,6 +8,13 @@ public class controlsmenu : MonoBehaviour
     // Start is called before the first frame update
     public void Menu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        //go to the Main Menu screen
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Controls()
+    {
+        //go to the controls screen
+        SceneManager.LoadScene("Controls");
     }
 }

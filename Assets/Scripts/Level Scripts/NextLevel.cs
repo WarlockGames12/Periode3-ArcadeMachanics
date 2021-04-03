@@ -5,23 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    [SerializeField] private int _levelToLoad = 2;
+    [SerializeField] private int _levelToLoad;
 
     // Start is called before the first frame update
     private void Start()
     {
-
+        Debug.Log(_levelToLoad); 
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Portal")
-            SceneManager.LoadScene(_levelToLoad);
-
+        if (collision.tag == "Player")
+        {
+            SceneManager.LoadScene(_levelToLoad, LoadSceneMode.Single);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }    

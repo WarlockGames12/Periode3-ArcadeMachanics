@@ -5,10 +5,9 @@ using UnityEngine;
 public class controlplayer : MonoBehaviour
 {
     
-    float speed = 10f;
+    float speed = 4f;
 
     private Rigidbody2D rb;
-    private float currentDashTime;
 
     // Use this for initialization
     void Start()
@@ -25,11 +24,11 @@ public class controlplayer : MonoBehaviour
             Input.GetAxis("Vertical"), 0);
         //rb.velocity = new Vector2(move, 0);
         rb.AddForce(move);
-        /*
+        
         // Update the ships position each frame
         transform.position += move
             * speed * Time.deltaTime;
-        */
+        
         
     }
 }
