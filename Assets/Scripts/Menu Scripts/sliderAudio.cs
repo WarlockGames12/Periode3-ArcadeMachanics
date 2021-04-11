@@ -3,13 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class sliderAudio : MonoBehaviour
+public class SliderAudio : MonoBehaviour
 {
     public AudioClip[] soundtrack;
     public Slider volumeSlider;
+    public static float PlayerVolume;
+    public AudioSource audioSource;
 
-    AudioSource audioSource;
 
+    public void ChangeVolume()
+    {
+        PlayerVolume = volumeSlider.value;
+    }
 
     void Awake()
     {
@@ -19,6 +24,8 @@ public class sliderAudio : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
+        volumeSlider.value = PlayerVolume;
         audioSource = GetComponent<AudioSource>();
 
         if (!audioSource.playOnAwake)
@@ -34,6 +41,7 @@ public class sliderAudio : MonoBehaviour
         if (!audioSource.isPlaying)
         {
             audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
+            audioSource.volume = PlayerVolume;
             audioSource.Play();
         }
     }
@@ -41,11 +49,11 @@ public class sliderAudio : MonoBehaviour
     void OnEnable()
     {
         //Register Slider Events
-        volumeSlider.onValueChanged.AddListener(delegate { changeVolume(volumeSlider.value); });
+        volumeSlider.onValueChanged.AddListener(delegate { ChangeVolume(volumeSlider.value); });
     }
 
     //Called when Slider is moved
-    void changeVolume(float sliderValue)
+    void ChangeVolume(float sliderValue)
     {
         audioSource.volume = sliderValue;
     }

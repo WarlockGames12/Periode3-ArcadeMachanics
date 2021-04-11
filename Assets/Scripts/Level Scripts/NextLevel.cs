@@ -14,7 +14,7 @@ public class NextLevel : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             SceneManager.LoadScene(_levelToLoad, LoadSceneMode.Single);
         }

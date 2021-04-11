@@ -6,7 +6,7 @@ public class EnemyBehaviour : MonoBehaviour
 {
     
     public float speed;
-    private float distance; //set the distance of the enemy seeing the player
+    private readonly float distance; //set the distance of the enemy seeing the player
     public float agroRange;
     public Transform target;//set target from inspector instead of looking in Update
 

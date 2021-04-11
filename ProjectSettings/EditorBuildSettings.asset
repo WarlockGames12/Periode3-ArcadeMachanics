@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/Controls.unity
     guid: 4ee6c9025efb23f469b1d014feb3c9ab
+  - enabled: 1
+    path: Assets/Scenes/Menu Scenes/Volume.unity
+    guid: 68372f25fdbf2234b8714b3784159a7b
   m_configObjects: {}
