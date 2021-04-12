@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class DashMechanic : MonoBehaviour
 {
-    public DashState dashState;
-    public float dashTimer;
-    public float maxDash = 20f;
+    public DashState dashState; 
+    public float dashTimer; //the maximum time when dashing
+    public float maxDash = 20f; //the maximum time of the dash cooldown
 
     public Vector2 savedVelocity;
 
@@ -14,7 +14,7 @@ public class DashMechanic : MonoBehaviour
     {
         switch (dashState)
         {
-            case DashState.Ready:
+            case DashState.Ready: //for when the dash is ready
                 var isDashKeyDown = Input.GetKeyDown(KeyCode.LeftShift);
                 if (isDashKeyDown)
                 {
@@ -23,7 +23,7 @@ public class DashMechanic : MonoBehaviour
                     dashState = DashState.Dashing;
                 }
                 break;
-            case DashState.Dashing:
+            case DashState.Dashing: //for when your are dashing
                 dashTimer += Time.deltaTime * 3;
                 if (dashTimer >= maxDash)
                 {
@@ -35,7 +35,7 @@ public class DashMechanic : MonoBehaviour
                 }
                 
                 break;
-            case DashState.Cooldown:
+            case DashState.Cooldown: //for after dashing
                 dashTimer -= Time.deltaTime;
                 if (dashTimer <= 0)
                 {

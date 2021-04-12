@@ -5,7 +5,7 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false; //make sure to make the UI is transparent
-    public GameObject pauseMenuUI;
+    public GameObject pauseMenuUI; //make a gameobject of the pausemenu
 
 
     void Start()
@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
     void Resume()
     {
         pauseMenuUI.SetActive(false); 
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f; //Time resume
         GameIsPaused = false; 
     }
 

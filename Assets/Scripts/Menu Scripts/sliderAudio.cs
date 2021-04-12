@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SliderAudio : MonoBehaviour
 {
-    public AudioClip[] soundtrack;
+    public AudioClip[] soundtrack; 
     public Slider volumeSlider;
     public static float PlayerVolume;
     public AudioSource audioSource;
