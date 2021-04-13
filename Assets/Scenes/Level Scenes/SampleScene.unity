@@ -2646,7 +2646,7 @@ GameObject:
   - component: {fileID: 226120383}
   m_Layer: 0
   m_Name: crate_box (9)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3043,7 +3043,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 5187344767365643828}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1261917833}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
@@ -3259,7 +3259,7 @@ GameObject:
   - component: {fileID: 281764570}
   m_Layer: 0
   m_Name: crate_box (11)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15145,6 +15145,121 @@ PrefabInstance:
       propertyPath: Audio12
       value: 
       objectReference: {fileID: 1340016686}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 1263139494}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 250145404}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 559681494}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[3]
+      value: 
+      objectReference: {fileID: 2138153211}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[4]
+      value: 
+      objectReference: {fileID: 1261917833}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[5]
+      value: 
+      objectReference: {fileID: 893775438}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[6]
+      value: 
+      objectReference: {fileID: 985002188}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Enemies.Array.data[7]
+      value: 
+      objectReference: {fileID: 62177899}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[0]
+      value: 
+      objectReference: {fileID: 928228949}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[1]
+      value: 
+      objectReference: {fileID: 1660159953}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[2]
+      value: 
+      objectReference: {fileID: 1271622943}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[3]
+      value: 
+      objectReference: {fileID: 861978753}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[4]
+      value: 
+      objectReference: {fileID: 645382337}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[5]
+      value: 
+      objectReference: {fileID: 1433405780}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[6]
+      value: 
+      objectReference: {fileID: 1002665019}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[7]
+      value: 
+      objectReference: {fileID: 536557869}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[8]
+      value: 
+      objectReference: {fileID: 1684593254}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[9]
+      value: 
+      objectReference: {fileID: 226120380}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[10]
+      value: 
+      objectReference: {fileID: 1737276231}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[11]
+      value: 
+      objectReference: {fileID: 281764567}
+    - target: {fileID: 5330500281243854871, guid: 5e7712daaf6ec4446b762f01ab9e51bf,
+        type: 3}
+      propertyPath: Boxes.Array.data[12]
+      value: 
+      objectReference: {fileID: 1241352758}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e7712daaf6ec4446b762f01ab9e51bf, type: 3}
 --- !u!1001 &477568679
@@ -16028,7 +16143,7 @@ GameObject:
   - component: {fileID: 536557872}
   m_Layer: 0
   m_Name: crate_box (7)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21813,7 +21928,7 @@ GameObject:
   - component: {fileID: 645382340}
   m_Layer: 0
   m_Name: crate_box (4)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28306,7 +28421,7 @@ GameObject:
   - component: {fileID: 861978756}
   m_Layer: 0
   m_Name: crate_box (3)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29516,7 +29631,7 @@ GameObject:
   - component: {fileID: 928228953}
   m_Layer: 0
   m_Name: crate_box
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30477,7 +30592,7 @@ GameObject:
   - component: {fileID: 1002665022}
   m_Layer: 0
   m_Name: crate_box (6)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32884,7 +32999,7 @@ GameObject:
   - component: {fileID: 1241352761}
   m_Layer: 0
   m_Name: crate_box (12)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33115,6 +33230,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecba8dbba1cf5cf499ff7c730d1a58b9, type: 3}
+--- !u!1 &1261917833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5187344767268259003, guid: 48195147526299a419b18878298fb91e,
+    type: 3}
+  m_PrefabInstance: {fileID: 5187344767365643828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1263139494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7271755271609575850, guid: 02617c20d965a064d97c26918a89aaa2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7271755270122366844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1265236392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33327,7 +33454,7 @@ GameObject:
   - component: {fileID: 1271622946}
   m_Layer: 0
   m_Name: crate_box (2)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39360,7 +39487,7 @@ GameObject:
   - component: {fileID: 1433405783}
   m_Layer: 0
   m_Name: crate_box (5)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46574,7 +46701,7 @@ GameObject:
   - component: {fileID: 1660159956}
   m_Layer: 0
   m_Name: crate_box (1)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46972,7 +47099,7 @@ GameObject:
   - component: {fileID: 1684593257}
   m_Layer: 0
   m_Name: crate_box (8)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47753,7 +47880,7 @@ GameObject:
   - component: {fileID: 1737276234}
   m_Layer: 0
   m_Name: crate_box (10)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48008,7 +48135,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 7271755270122366844}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1263139494}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c34fed8b24a34142b08d450085291b7, type: 3}
