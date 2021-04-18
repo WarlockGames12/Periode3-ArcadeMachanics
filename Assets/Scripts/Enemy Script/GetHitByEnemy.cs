@@ -12,7 +12,6 @@ public class GetHitByEnemy : MonoBehaviour
     public Camera_Follow other; //Destroy Camera 
     public EnemyBehaviour enemyView; //Destroy view from enemy
     public List<EnemyBehaviour> enemyBehaviourList; //You can choose how many Enemies there are because you can make a list out of it, making the code a bit lighter
-    public PlayAudioAfterDestroy Audio12; //?????
     public GameObject[] livesSprites; //Gameobject Lives
     public int lives = 3; //player has 3 lives
     void Start()
@@ -34,10 +33,12 @@ public class GetHitByEnemy : MonoBehaviour
                 
                 GameOverScreen.SetActive(true);
                 GameOver = true;
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.Play();
                 Destroy(other); //Destroy Camera 
                 Destroy(enemyView); //Destroy Enemy view :D
-                Destroy(Audio12, 6.0f); //Play first the Audio before it destroys itself...
-                Destroy(gameObject); //Destroy player
+                Destroy(gameObject, audio.clip.length); //Destroy player
+                Debug.Log("Play Sound");
                 Instantiate(
                    ParticlesExplosion, //Particle system & Explosion point will stay 
                    ExplosionPoint.position,

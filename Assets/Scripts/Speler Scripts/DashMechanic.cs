@@ -17,12 +17,16 @@ public class DashMechanic : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Enemy") && dashState == DashState.Dashing)
         {
-            Destroy(col.gameObject, 2f);
+            AudioSource audioEnemy = GetComponent<AudioSource>();
+            audioEnemy.Play();
+            Destroy(col.gameObject, audioEnemy.clip.length);
         }
 
         if (col.gameObject.CompareTag("Box") && dashState == DashState.Dashing)
         {
-            Destroy(col.gameObject, 2f);
+            AudioSource audioBox = GetComponent<AudioSource>();
+            audioBox.Play();
+            Destroy(col.gameObject, audioBox.clip.length);
         }
     }
     void Update()

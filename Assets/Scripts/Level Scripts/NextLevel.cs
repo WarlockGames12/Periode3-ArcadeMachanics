@@ -16,6 +16,8 @@ public class NextLevel : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play();
             SceneManager.LoadScene(_levelToLoad, LoadSceneMode.Single);
         }
     }

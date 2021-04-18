@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    
+
     public float speed;
     private readonly float distance; //set the distance of the enemy seeing the player
     public float agroRange;
@@ -12,7 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     void Update()
     {
-        if(target == null)
+        if (target == null)
         {
             return;
         }
@@ -27,9 +27,10 @@ public class EnemyBehaviour : MonoBehaviour
             if (Vector2.Distance(transform.position, target.position) > distance)
             {//move if distance from target is greater than distance
                 transform.Translate(new Vector2(speed * Time.deltaTime, 0));
-               
+
             }
         }
-       
+
     }
+    
 }
