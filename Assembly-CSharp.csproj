@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Menu Scripts\buttons.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\controlsmenu.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\Camera_Follow.cs" />
+    <Compile Include="Assets\Scripts\Speler Scripts\CompasScript.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\DashMechanic.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\LookAtMouse.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\controlplayer.cs" />

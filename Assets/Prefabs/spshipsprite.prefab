@@ -107,6 +107,8 @@ MonoBehaviour:
   dashState: 0
   dashTimer: 3
   maxDash: 20
+  Enemies: []
+  Boxes: []
   savedVelocity: {x: 0, y: 0}
 --- !u!50 &5330500279245545474
 Rigidbody2D:
@@ -217,6 +219,8 @@ MonoBehaviour:
   dashState: 0
   dashTimer: 5
   maxDash: 10
+  Enemies: []
+  Boxes: []
   savedVelocity: {x: 0, y: 0}
 --- !u!82 &5330500280713927472
 AudioSource:
@@ -327,19 +331,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverScreen: {fileID: 0}
-  GameOver: 0
   ParticlesExplosion: {fileID: 5373896536989798345, guid: 0aacaba1ff816bc41a0c386f0d572ce9,
     type: 3}
+  GameOver: 0
   ExplosionPoint: {fileID: 5330500280467921881}
   other: {fileID: 0}
   enemyView: {fileID: 0}
   enemyBehaviourList: []
-  PlayAfterDestroy: {fileID: 0}
   livesSprites:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   lives: 3
+  audioPlayer: {fileID: 0}
 --- !u!1 &5330500280467921880
 GameObject:
   m_ObjectHideFlags: 0
