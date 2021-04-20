@@ -10,7 +10,7 @@ public class NextLevel : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Debug.Log(_levelToLoad); 
+        Debug.Log(_levelToLoad);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {

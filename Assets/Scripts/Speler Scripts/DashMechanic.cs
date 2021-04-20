@@ -7,8 +7,12 @@ public class DashMechanic : MonoBehaviour
     public DashState dashState; 
     public float dashTimer; //the maximum time when dashing
     public float maxDash = 20f; //the maximum time of the dash cooldown
-    public GameObject[] Enemies;
-    public GameObject[] Boxes;
+    public GameObject[] Enemies; //make a list for Enemies
+    public GameObject[] Boxes; //make a list for Box
+    //public List<ParticleSystem> ParticleExplosionEnemy; //Make a list for Particle System enemies
+    //public List<GameObject> ParticlePointEnemies; //Make a list for Particlepoints
+    //public List<ParticleSystem> ParticleExplosionBox; //Make a list for ParticleExplosions for the Box
+    //public List<GameObject> ParticlePointBox; //Make a list for Particlepoint box
 
 
     public Vector2 savedVelocity;
@@ -20,6 +24,12 @@ public class DashMechanic : MonoBehaviour
             AudioSource audioEnemy = GetComponent<AudioSource>();
             audioEnemy.Play();
             Destroy(col.gameObject, audioEnemy.clip.length);
+           //Instantiate(
+           //     ParticleExplosionEnemy[0],
+           //     ParticlePointEnemies[0].transform.position,
+           //     Quaternion.identity
+          //  );
+            
         }
 
         if (col.gameObject.CompareTag("Box") && dashState == DashState.Dashing)
@@ -27,6 +37,11 @@ public class DashMechanic : MonoBehaviour
             AudioSource audioBox = GetComponent<AudioSource>();
             audioBox.Play();
             Destroy(col.gameObject, audioBox.clip.length);
+           // Instantiate(
+            //    ParticleExplosionBox[0],
+            //    ParticlePointBox[0].transform.position,
+           //     Quaternion.identity
+          //   );
         }
     }
     void Update()

@@ -14,6 +14,7 @@ public class GetHitByEnemy : MonoBehaviour
     public List<EnemyBehaviour> enemyBehaviourList; //You can choose how many Enemies there are because you can make a list out of it, making the code a bit lighter
     public GameObject[] livesSprites; //Gameobject Lives
     public int lives = 3; //player has 3 lives
+    public AudioSource audioPlayer;
     void Start()
     {
         //begin the gameover screen transparent
@@ -26,6 +27,7 @@ public class GetHitByEnemy : MonoBehaviour
         if (col.gameObject.CompareTag("Enemy"))
         {
             //Destroy 1 life at a time
+            audioPlayer.Play();
             Destroy(livesSprites[lives-1]);
             lives -= 1; //Live = 3 - 1 collision = 2 lives and so on for if it happens another time
             if(lives == 0) //if the Player has no lives, it will get you a game over UI
