@@ -72,6 +72,8 @@
     <Compile Include="Assets\Scripts\Level Scripts\PlayAudioAfterDestroy.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\BackToOption.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\CreditsCode.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\CreditsMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\GobacktoMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\HoverPlayer.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\Scripts\Speler Scripts\Camera_Follow.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\CompasScript.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\DashMechanic.cs" />
+    <Compile Include="Assets\Scripts\Speler Scripts\FPSCounter.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\LookAtMouse.cs" />
     <Compile Include="Assets\Scripts\Speler Scripts\controlplayer.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
